@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background: rgb(198, 193, 137);
+}
+.container
+{
+    width: 50%;
+    height: 500px;
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 100px;
+}
+.img1
+{
+    width: 50%;
+    height: 500px;
+    border-radius: 8px;
+    margin-right: 422px;
+}
+h2
+{
+    position: relative;
+    bottom: 475px;
+    left: 89px;
+    font-family: "Roboto", system-ui;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 5px;
+    font-style: normal;
+    text-transform: uppercase;
+    color: rgb(107, 105, 105);
+}
+h1
+{
+    font-family: "DM Serif Text", serif;
+    font-weight: 900;
+    font-style: normal;
+    position: relative;
+    bottom: 450px;
+    left: 98px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 35px;
+}
+.spn1
+{
+    padding-left: 105px;
+}
+.spn2
+{
+    padding-right: 20px;
+}
+.p1
+{
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 2px;
+    line-height: 23px;
+    position: relative;
+    bottom: 415px;
+    left: 187px;
+}
+.spn3
+{
+    position: relative;
+    right: 18px;
+}
+.spn4
+{
+    position: relative;
+    right: 29px;
+}
+.h1
+{
+    font-family: "Pacifico", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    position: relative;
+    bottom: 385px;
+    left: 115px;
+    color: rgb(73, 70, 70);
+}
+.btn1
+{
+    width: 40%;
+    height: 50px;
+    position: relative;
+    bottom: 335px;
+    left: 198px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(73, 70, 70);
+    color: white;
+}
+.img2
+{
+    position: relative;
+    bottom: 330px;
+    right: 30px;
+}
+.btn1:hover
+{
+    background: rgb(101, 91, 91);
+    transition: 0.3s;
+}
